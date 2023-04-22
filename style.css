@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.text-center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin: auto;
+    padding: 10px;
+    border-radius: 9px;
+    
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.input{
+    margin: 0px;
+    font-size: 20px;
+    padding: 5px 50px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
